@@ -214,7 +214,7 @@
 }
 .topCon
 {
-	margin-top:6vh;
+	margin-top:3vh;
 	font-size: 1.6vw;
 	font-family: comfortaa;
 	
@@ -883,7 +883,7 @@
 		.about{
 			
 			width:100vw;
-			height:70vh;
+			height:80vh;
 			margin-bottom:-120px;
 			/* border: 3px solid red; */
 			/* display:flex; */
@@ -932,7 +932,7 @@
 		.about
 		 {
 		 	background-color: white;
-			 max-height: 90vw;
+			 max-height: 95vw;
 		 }
 
 		
@@ -941,19 +941,19 @@
 		 {
 			 .about{
 				 height:auto;
-				 margin-bottom:170px;
+				 margin-bottom:400px;
 			 }
 		 }
 		 @media (min-width: 400px) and (max-width: 500px){
 			.about{
 				height:auto;
-				margin-bottom:500px;
+				margin-bottom:830px;
 			}
 			}
 	 @media (min-width: 320px) and (max-width: 399px)  {
 			.about{
 				height:auto;	
-				margin-bottom:370px;
+				margin-bottom:640px;
 			}
 			.respon
 		 	{
@@ -1036,7 +1036,13 @@
 	
 
 		
-		
+		@media (min-width: 1025px) and (max-width: 1800px){
+
+			.about{
+				height:auto;	
+				margin-bottom:500px;
+			}
+		}
 		
 	
 	
@@ -1044,7 +1050,7 @@
 
 		  
 			
-		 		@media only screen and (min-width:501px) and (max-width: 768px)
+		 @media only screen and (min-width:501px) and (max-width: 768px)
 		 {
 		 	.respon
 		 	{
